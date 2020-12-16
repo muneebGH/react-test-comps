@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+.outer-container-menu {
+  background-color: #f7f7ff;
+  display: grid;
+  justify-content: stretch;
+  width: 9%;
+  height: 100vh;
+}
+
+.rcsa-logo {
+  padding-top: 0.3em;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 25px;
+  color: #333951;
+}
+
+.navigation-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 35%;
+  justify-self: center;
+}
+
+.logout-icon {
+  align-self: end;
+  width: 35%;
+  justify-self: center;
+  opacity: 0.7;
+  padding-bottom: 1em;
+}
